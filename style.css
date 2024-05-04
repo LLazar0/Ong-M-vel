@@ -119,16 +119,15 @@ button:focus{
 
 .grid-articles{
 	position: relative;
-	display: grid;
-	width: 100%;
-	grid-template-columns: repeat(2, 500px);
-	grid-template-rows: repeat(2, 300px);
-	align-items: center;
-	justify-content: center;
-	row-gap: 50px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
 }
 .grid-articles > article {
-	padding-right: 50px;
 	text-align: center;
 }
 @media (max-width: 1000px){
@@ -141,8 +140,8 @@ button:focus{
 	}
 }
 .grid-articles > article > img{
-	max-width: 20%;
-    height: auto;
+	max-width: 15%;
+    max-height: auto;
 }
 
 .stay-productive{
