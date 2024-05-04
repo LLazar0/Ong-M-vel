@@ -364,7 +364,7 @@ footer > .navbar-grid > .links ion-icon{
 		align-items: center;
 	}
 	.grid-articles > article > img{
-		width: auto;
+		width: 30%;
 		height: 30%;
 	}
 	.grid-articles > article > h3{
