@@ -1,5 +1,5 @@
 # OngMobile
-Site de uma Ong fictícia criada para um projeto da faculdade. 
+Site de uma Ong fictícia criada para um projeto da faculdade de uns amigos meus. 
 
 ## Sobre o website
 - Feito em HTML e CSS
